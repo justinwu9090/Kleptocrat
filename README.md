@@ -1,12 +1,21 @@
-# Kleptocrat
+<h1 align="center"> Kleptocrat</h1>
 <h4 align="center">A steath-type game - VGD Spring 2024 class showcase</h4> 
 <h3 align="center">Game Trailer Here!</h3>
 
 [![video](TrailerImage.png)](https://www.youtube.com/watch?v=7TT_q3IV0Ac)
 
-### Manifest - Justin
+### Thanks to the Team
+Huge appreciation to everyone in the team for such a rewarding project experience. I learned a lot from every team member, most notably:
+- Tom - solid systems + framework authoring for the game/sound/scene managers, event systems, 
+- Erik - motion capture expert and go-to for the player controller nuances. Was fun working with you to figure out the PhysX engine and leveraging it for our players, AI and interactable objects.
+- Martin - The focus on learning the tools properly, whether it's Unity-specific programming patterns like Scriptable Objects, or game lighting industry standards, and upholding high standards for gameplay experience and HUD for the user.
+- cofefe - Essential UI creation and level details (ambience, sounds, set dressing) which added that extra polish to the game. Inspired to try shaders in Unity's shadergraph due to your push for learnings in computer graphics.
 
-The following is an outline of contributions that I made to the Video Game Design project. I limited sharing of all source material due to course policy.
+### Justin's Manifest
+
+The following is an outline of contributions that I made to the Video Game Design project. I contributed crucially to the AI algorithms - AI state behavior, navigation, animation, gameplay mechanics. Working with the team, I contributed lesser to game/event systems, player controller, HUD and overall level design/layout.
+
+I limited sharing of all source material due to class course policy.
 
 **Algorithm Contributions** 
 
@@ -23,7 +32,7 @@ The following is an outline of contributions that I made to the Video Game Desig
 * Fixed player control bugs using Rigid body force/velocity instead of direct transform updates
 * ScriptableObject communication for player/AI/gameplay
 * Trigger scripts for doors, sounds, collapsing boxes and hiding zones
-* Improved Erik’s footstep emitter- now the randomized collection-based footsteps can be chosen based on passed-in ground surface + movement type (not yet fully utilized in the alpha)
+* Improved Erik’s footstep emitter- now the randomized collection-based footsteps can be chosen based on passed-in ground surface + movement type 
 
 **Other contributions**
 * Level whiteboxing and set decoration
